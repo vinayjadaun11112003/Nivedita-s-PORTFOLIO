@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="canonical" href="https://vinayjadaun-com.vercel.app/" />
+        <link href="stylenew.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Nivedita Vishwakarma | Software Developer | Freelancer</title>
+        <meta name="description"
+        content="Nivedita Vishwakarma is a skilled Software Engineer with expertise in full-stack development. Proficient in modern web technologies and cloud computing, Nivedita builds robust, scalable, and secure applications.">
+        <meta name="keywords"
+        content="Nivedita Vishwakarma, nivedita vishwakarma, software developer, web developer, full-stack engineer">
+        <meta name="author" content="Nivedita Vishwakarma">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Nivedita Vishwakarma | Software Developer | Freelancer">
+        <meta property="og:description"
+        content="Nivedita Vishwakarma is a skilled Software Engineer with expertise in full-stack development. Proficient in modern web technologies and cloud computing.">
+        <meta property="og:image" content="https://portfolio-nivedita.vercel.app/hello.jpeg">
+        <meta property="og:url" content="https://portfolio-nivedita.vercel.app/">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="https://portfolio-nivedita.vercel.app/hello.jpeg">
+        <meta name="twitter:title" content="Nivedita Vishwakarma | Software Developer | Freelancer">
+        <meta name="twitter:description"
+        content="Nivedita Vishwakarma is a skilled Software Engineer with expertise in full-stack development.">
+        <meta name="twitter:image" content="https://portfolio-nivedita.vercel.app/hello.jpeg">
+        <meta name="google-site-verification" content="OWnp43ON5FyBPzrll49XylV2IbMreARYV7J9wbRHNKo" />
+        
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta name="apple-mobile-web-app-title" content="Nivedita Vishwakarma">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+        <link rel="manifest" href="/site.webmanifest">
+        
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="preloader"></div>
+        
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <img src="nivedita.png" alt="Logo" class="nav-logo">
+                <button class="nav-toggle" onclick="openmenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="sidemenu">
+                    <button class="nav-close" onclick="closemenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <li><a href="#header" class="nav-link" onclick="closemenu()">HOME</a></li>
+                    <li><a href="#about" class="nav-link" onclick="closemenu()">ABOUT</a></li>
+                    <li><a href="#myServices" class="nav-link" onclick="closemenu()">SERVICE</a></li>
+                    <li><a href="#portfolio" class="nav-link" onclick="closemenu()">PORTFOLIO</a></li>
+                    <li><a href="#contact-me" class="nav-link" onclick="closemenu()">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Header Hero Section -->
+        <header id="header" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle animate-fade-in">Java Full Stack Developer</p>
+                    <h1 class="hero-title animate-slide-up">
+                        Hi, I'm <span class="gradient-text">Nivedita</span> <br>
+                        Vishwakarma
+                    </h1>
+                    <p class="hero-description animate-fade-in-delay">Crafting digital experiences with modern technologies</p>
+                    <a href="#contact-me" class="cta-button">Get In Touch</a>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-shape"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="HelloNivedita.jpeg" alt="Nivedita Vishwakarma" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-desc">
+                            Highly skilled Java Full Stack Developer with expertise in building scalable microservices architecture. Proficient in Java, Spring Boot, and React as frontend framework, with strong knowledge of cloud platforms including AWS, Azure, and Google Cloud Platform. Experienced with RabbitMQ for asynchronous messaging, payment gateway integration (Stripe), and modern software development practices. Passionate about creating robust, maintainable solutions that prioritize performance, scalability, and user experience in distributed systems.
+                        </p>
+                        
+                        <div class="tabs-container">
+                            <div class="tab-buttons">
+                                <button class="tab-btn active-tab-btn" onclick="opentab(event, 'skills')">Skills</button>
+                                <button class="tab-btn" onclick="opentab(event, 'experience')">Experience</button>
+                                <button class="tab-btn" onclick="opentab(event, 'education')">Education</button>
+                            </div>
+
+                            <div class="tab-content active-tab-content" id="skills">
+                                <div class="skill-grid">
+                                    <div class="skill-card">
+                                        <i class="fa-solid fa-pen-ruler"></i>
+                                        <h4>UI/UX Design</h4>
+                                        <p>Adobe XD Designer</p>
+                                    </div>
+                                    <div class="skill-card">
+                                        <i class="fa-brands fa-android"></i>
+                                        <h4>App Development</h4>
+                                        <p>Android Developer</p>
+                                    </div>
+                                    <div class="skill-card">
+                                        <i class="fa-solid fa-code"></i>
+                                        <h4>Web Development</h4>
+                                        <p>Java Full Stack</p>
+                                    </div>
+                                    <div class="skill-card">
+                                        <i class="fa-solid fa-film"></i>
+                                        <h4>Video Editing</h4>
+                                        <p>Premiere Pro Expert</p>
+                                    </div>
+                                    <div class="skill-card">
+                                        <i class="fa-solid fa-cube"></i>
+                                        <h4>3D Graphics</h4>
+                                        <p>Blender Expert</p>
+                                    </div>
+                                    <div class="skill-card">
+                                        <i class="fa-solid fa-terminal"></i>
+                                        <h4>Programming</h4>
+                                        <p>JS and Java</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content" id="experience">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Capgemini A4 Star Analyst</h4>
+                                            <p>1 YOE in Java Full Stack</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Capgemini A4 Star Analyst Intern</h4>
+                                            <p>2 Month Internship in Java Full Stack</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Capgemini CodeXperience Lab</h4>
+                                            <p>2 Month Training Program</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>DrDhaivatShah.com</h4>
+                                            <p>Freelance Web Developer</p>
+                                        </div>
+                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content" id="education">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Bachelor of Technology</h4>
+                                            <p>Technocrats Institute of Technology - Computer Science</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Higher Secondary Certificate</h4>
+                                            <p>DM Co-ed School, Bhopal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="myServices" class="services">
+            <div class="section-container">
+                <h2 class="section-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Web Designer</h3>
+                        <p>Innovative web designer with a keen eye for aesthetics, transforming visions into captivating and user-centric digital experiences.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-brands fa-app-store"></i>
+                        </div>
+                        <h3>Android Developer</h3>
+                        <p>Highly skilled Android Developer with a proven track record of creating innovative and user-friendly mobile applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-crop"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creative and user-centric UI/UX designer with a passion for crafting intuitive and visually captivating digital experiences.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-film"></i>
+                        </div>
+                        <h3>Video Editing</h3>
+                        <p>Accomplished Premiere Pro Editor with a keen eye for detail and a proven track record of crafting engaging visual experiences.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code-branch"></i>
+                        </div>
+                        <h3>Programmer</h3>
+                        <p>Versatile programmer with expertise in JavaScript and Java, adept at designing and implementing efficient and scalable solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-brands fa-unity"></i>
+                        </div>
+                        <h3>3D Graphic Modeling</h3>
+                        <p>Accomplished 3D Graphic Modeling Specialist with expertise in creating stunning visual assets and immersive experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="section-container">
+                <h2 class="section-title">My Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-1.webp" alt="Immensifyy">
+                            <div class="portfolio-overlay">
+                                <h3>Immensifyy</h3>
+                                <p>E-learning platform with AI-Interview feature, 1-1 Private room creation, and real-time payment system.</p>
+                                <a href="https://lms-immensifyy.vercel.app/cources" class="portfolio-link">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-2.webp" alt="Vride">
+                            <div class="portfolio-overlay">
+                                <h3>Vride</h3>
+                                <p>Ride Booking Application with real-time tracking and real-time payment system.</p>
+                                <a href="https://v-taxi-nl8s7b40e-vinay-jadauns-projects.vercel.app/" class="portfolio-link">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-3.webp" alt="DrDhaivatShah">
+                            <div class="portfolio-overlay">
+                                <h3>DrDhaivatShah.com</h3>
+                                <p>Portfolio website for Senior Retinal Surgeon and Managing Director of Chiothram Netralaya.</p>
+                                <a href="https://www.drdhaivatshah.com" class="portfolio-link" target="blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="work.html" class="view-more-btn">View More Projects</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-me" class="contact">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>Niveditavishwakarma205@gmail.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+91-9340179582</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <h3>Location</h3>
+                            <p>Pune</p>
+                        </div>
+                        <div class="social-links">
+                            <h3>Follow Me</h3>
+                            <div class="social-icons">
+                                <a href="https://api.whatsapp.com/send?phone=919340179582" class="social-icon" aria-label="WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/niveditavishwakarma/" class="social-icon" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.instagram.com/nivedita_vkm?igsh=d2lsdWtucnVncmNs" class="social-icon" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/Niveditavishwakarma" class="social-icon" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1ssc4QikG7xeSHmaLbnPriK8mEc9x4uqx/view?usp=sharing" class="download-cv">Download CV</a>
+                    </div>
+                    <form class="contact-form" name="submit-to-google-sheet">
+                        <div class="form-group">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <span id="msg" class="form-message"></span>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyright © Nivedita Vishwakarma <i class="fa-regular fa-heart"></i></p>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://kit.fontawesome.com/ede265246a.js" crossorigin="anonymous"></script>
+        <script>
+            // Navigation
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.classList.add("active");
+            }
+            function closemenu() {
+                sidemenu.classList.remove("active");
+            }
+
+            // Tabs
+            function opentab(evt, tabname) {
+                var tabcontents = document.getElementsByClassName("tab-content");
+                for (var i = 0; i < tabcontents.length; i++) {
+                    tabcontents[i].classList.remove("active-tab-content");
+                }
+                var tabbtns = document.getElementsByClassName("tab-btn");
+                for (var i = 0; i < tabbtns.length; i++) {
+                    tabbtns[i].classList.remove("active-tab-btn");
+                }
+                document.getElementById(tabname).classList.add("active-tab-content");
+                evt.currentTarget.classList.add("active-tab-btn");
+            }
+
+            // Form Submission
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyxSTLtWnQDw25kMHKJYZozYqQuM2lyooxL4SFFirIhlDm0nZNcsBAK6mquo3yLV9HM/exec';
+            const form = document.forms['submit-to-google-sheet'];
+            
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        const msg = document.getElementById('msg');
+                        msg.textContent = "Message sent successfully!";
+                        msg.classList.add("show");
+                        setTimeout(function() {
+                            msg.classList.remove("show");
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+
+            // Preloader
+            var preloader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                preloader.style.display = "none";
+            });
+
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

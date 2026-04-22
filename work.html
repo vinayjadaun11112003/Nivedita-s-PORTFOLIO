@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="canonical" href="https://portfolio-nivedita.vercel.app/" />
+        <link href="stylenew.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Nivedita Vishwakarma | My Work | Portfolio</title>
+        <meta name="description"
+        content="Explore Nivedita Vishwakarma's portfolio of web applications and projects built with modern technologies including React, Node.js, and MongoDB.">
+        <meta name="keywords"
+        content="Nivedita Vishwakarma projects, portfolio, web development, MERN stack, full-stack applications">
+        <meta name="author" content="Nivedita Vishwakarma">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Nivedita Vishwakarma | My Work">
+        <meta property="og:description"
+        content="Explore Nivedita Vishwakarma's portfolio of modern web applications and projects.">
+        <meta property="og:image" content="https://portfolio-nivedita.vercel.app/hello.jpeg">
+        <meta property="og:url" content="https://portfolio-nivedita.vercel.app/work.html">
+        <meta property="og:type" content="website">
+        
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta name="apple-mobile-web-app-title" content="Nivedita Vishwakarma">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+        <link rel="manifest" href="/site.webmanifest">
+        
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="preloader"></div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <img src="nivedita.png" alt="Logo" class="nav-logo">
+                <button class="nav-toggle" onclick="openmenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="sidemenu">
+                    <button class="nav-close" onclick="closemenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <li><a href="indexnew.html#header" class="nav-link" onclick="closemenu()">HOME</a></li>
+                    <li><a href="indexnew.html#about" class="nav-link" onclick="closemenu()">ABOUT</a></li>
+                    <li><a href="indexnew.html#myServices" class="nav-link" onclick="closemenu()">SERVICE</a></li>
+                    <li><a href="#portfolio" class="nav-link" onclick="closemenu()">PORTFOLIO</a></li>
+                    <li><a href="#contact-me" class="nav-link" onclick="closemenu()">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="section-container">
+                <a href="indexnew.html">Home</a> / <span>My Work</span>
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio portfolio-full">
+            <div class="section-container">
+                <h1 class="section-title">My Complete Portfolio</h1>
+                <p class="portfolio-subtitle">Exploring my latest projects and achievements</p>
+                
+                <div class="portfolio-grid portfolio-extended">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-1.webp" alt="Immensifyy E-learning Platform">
+                            <div class="portfolio-overlay">
+                                <h3>Immensifyy</h3>
+                                <p>E-learning platform with AI-Interview feature, 1-1 Private room creation, and real-time payment system.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="https://lms-immensifyy.vercel.app/cources" class="portfolio-link" target="_blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Immensifyy - E-Learning Platform</h3>
+                            <p>A comprehensive e-learning solution featuring AI-powered interviews, private room creation for discussions, and secure payment integration.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-2.webp" alt="Vride Ride Booking">
+                            <div class="portfolio-overlay">
+                                <h3>Vride</h3>
+                                <p>Ride Booking Application with real-time tracking and real-time payment system.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Firebase</span>
+                                    <span>Stripe</span>
+                                </div>
+                                <a href="https://v-taxi-nl8s7b40e-vinay-jadauns-projects.vercel.app/" class="portfolio-link" target="_blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Vride - Ride Booking App</h3>
+                            <p>A modern ride-sharing application with real-time GPS tracking, instant notifications, and seamless payment integration.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-3.webp" alt="DrDhaivatShah Portfolio">
+                            <div class="portfolio-overlay">
+                                <h3>DrDhaivatShah.com</h3>
+                                <p>Portfolio website for Senior Retinal Surgeon and Managing Director of Chiothram Netralaya.</p>
+                                <div class="project-tech">
+                                    <span>Next.js</span>
+                                    <span>Tailwind</span>
+                                    <span>Vercel</span>
+                                </div>
+                                <a href="https://www.drdhaivatshah.com" class="portfolio-link" target="_blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Dr. Dhairvat Shah Portfolio</h3>
+                            <p>Professional portfolio website for a renowned retinal surgeon showcasing expertise and credentials with elegant design.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-1.webp" alt="Globe4Education">
+                            <div class="portfolio-overlay">
+                                <h3>Globe4Education</h3>
+                                <p>Modern website for Delhi-based international consulting agency with interactive features.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Material-UI</span>
+                                    <span>API</span>
+                                </div>
+                                <a href="https://www.globe4education.com" class="portfolio-link" target="_blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Globe4Education Website</h3>
+                            <p>Modern consulting agency website with vibrant design, showcasing educational programs and international opportunities.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-2.webp" alt="Veels App">
+                            <div class="portfolio-overlay">
+                                <h3>Veels</h3>
+                                <p>Short video sharing application with interactive user experience built with Android/Kotlin.</p>
+                                <div class="project-tech">
+                                    <span>Kotlin</span>
+                                    <span>Firebase</span>
+                                    <span>Android</span>
+                                </div>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Veels - Video Sharing App</h3>
+                            <p>Interactive short-form video sharing platform similar to TikTok, built for Android with smooth animations and engaging UI.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="work-3.webp" alt="Todo List App">
+                            <div class="portfolio-overlay">
+                                <h3>Modern Todo List</h3>
+                                <p>Modern Todo List application with local storage and beautiful UI.</p>
+                                <div class="project-tech">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <a href="https://www.github.com/nivedita-vishwakarma/Todo-list/" class="portfolio-link" target="_blank">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <h3>Modern Todo List Application</h3>
+                            <p>Responsive todo list application with local storage persistence and modern design patterns.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-me" class="contact">
+            <div class="section-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>Niveditavishwakarma205@gmail.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+91-9340179582</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa-solid fa-map-pin"></i>
+                            <h3>Location</h3>
+                            <p>Pune</p>
+                        </div>
+                        <div class="social-links">
+                            <h3>Follow Me</h3>
+                            <div class="social-icons">
+                                <a href="https://api.whatsapp.com/send?phone=919340179582" class="social-icon" aria-label="WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/niveditavishwakarma/" class="social-icon" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.instagram.com/nivedita_vkm?igsh=d2lsdWtucnVncmNs" class="social-icon" aria-label="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/Niveditavishwakarma" class="social-icon" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1ssc4QikG7xeSHmaLbnPriK8mEc9x4uqx/view?usp=sharing" class="download-cv">Download CV</a>
+                    </div>
+                    <form class="contact-form" name="submit-to-google-sheet">
+                        <div class="form-group">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <span id="msg" class="form-message"></span>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Copyright © Nivedita Vishwakarma <i class="fa-regular fa-heart"></i></p>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://kit.fontawesome.com/ede265246a.js" crossorigin="anonymous"></script>
+        <script>
+            // Navigation
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.classList.add("active");
+            }
+            function closemenu() {
+                sidemenu.classList.remove("active");
+            }
+
+            // Form Submission
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyxSTLtWnQDw25kMHKJYZozYqQuM2lyooxL4SFFirIhlDm0nZNcsBAK6mquo3yLV9HM/exec';
+            const form = document.forms['submit-to-google-sheet'];
+            
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        const msg = document.getElementById('msg');
+                        msg.textContent = "Message sent successfully!";
+                        msg.classList.add("show");
+                        setTimeout(function() {
+                            msg.classList.remove("show");
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+
+            // Preloader
+            var preloader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                preloader.style.display = "none";
+            });
+
+            // Smooth scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
